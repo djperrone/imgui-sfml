@@ -31,12 +31,10 @@ project "ImGui_SFML"
 		systemversion "latest"
 
 	filter "configurations:Debug"
-		runtime "Debug"
-		buildoptions "/MDd"
+		runtime "Debug"		
 		symbols "on"
 
 	filter "configurations:Release"
-		runtime "Release"
-		buildoptions "/MD"
+		runtime "Release"		
 		optimize "on"
 
